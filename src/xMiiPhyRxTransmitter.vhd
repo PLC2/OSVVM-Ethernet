@@ -126,7 +126,7 @@ begin
   begin
     wait for 0 ns ;  -- calc init value on tperiod_xClk
     loop 
-      RefRxClk <= not RefRxClk after tperiod_xClk ; 
+      RefRxClk <= not RefRxClk after tperiod_xClk / 2 ; 
       wait on RefRxClk ; 
     end loop ; 
   end process ; 

@@ -130,7 +130,7 @@ begin
 --  begin
 --    wait for 0 ns ;  -- calc init value on tperiod_xClk
 --    loop 
---      RefGtxClk <= not RefGtxClk after tperiod_xClk ; 
+--      RefGtxClk <= not RefGtxClk after tperiod_xClk / 2 ; 
 --      wait on RefGtxClk ; 
 --    end loop ; 
 --  end process ; 
