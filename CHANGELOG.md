@@ -2,6 +2,7 @@
 
 | Revision  |  Release Summary | 
 ------------|----------- 
+| 2026.05   |  Corrected RefGtxClk to /2
 | 2025.06   |  Autogenerate OsvvmTestCommonPkg.  Update testbenches for TranscriptOpen and AffirmIfTranscriptsMatch
 |           |  Removed Xilinx 2023.2 specializations as not completely working.  build.pro replaced <DirectoryName>.pro.  
 | 2023.05   | Bug Fix:  Updated looping in receivers 
